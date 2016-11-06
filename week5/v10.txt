@@ -1,0 +1,12 @@
+Версия команд процессора EMELY V 10:
+команда			код			флаг		параметр1					параметр2
+begin			1			
+end				2
+out				3
+div				9
+mul				8
+sub				7
+add				6
+push			4			-			double number
+pop				5			-			int regno
+jmp				10			00*			*=1? метка: указатель

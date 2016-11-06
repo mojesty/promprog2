@@ -1,0 +1,14 @@
+EMELY20
+begin
+push 1
+push 2
+pop 1
+pop 0
+cmp 0 1
+jne 6 test:
+push 4
+out
+:test
+push 5
+out
+end

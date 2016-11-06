@@ -1,0 +1,6 @@
+EMELY20 
+begin 
+push 1 
+push 2 
+sub 
+out end

@@ -1,0 +1,28 @@
+EMELY30
+begin
+push 5 2
+push 5 3
+pop 0
+pop 1
+cmp 0 1
+jng 6 metka1:
+jne 6 metka2:
+push 5 123
+out
+:metka1
+push 5 10
+pop 2
+push 5 0
+pop 0
+:cycle
+out
+push 5 1
+add
+pop 0
+push 4 0
+cmp 0 2
+jng 6 cycle:
+:metka2
+push 5 100500
+out
+end
